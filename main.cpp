@@ -1,8 +1,16 @@
 #include <iostream>
+#include <string>
+
+using std::string;
 
 int main(){
 
-  cout << "Hi Eric Kiesow.\n";
+  // variable for name
+  string name;
+
+  cout << "Enter your name:\n";
+  cin >> name;
+  cout << "Welcome, " << name << "!\n";
 
   return 0;
 }
